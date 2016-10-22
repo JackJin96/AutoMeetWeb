@@ -43,8 +43,12 @@ p{
               font-weight: 100;
 }
 
-#intro{
+#paragraph{
 	padding-top: 10px;
+}
+
+#secondheading{
+	text-align: right;
 }
 
 }
@@ -55,10 +59,19 @@ p{
 	}
 	}
 
-.logo{
-	font-size: 200px;
+.smalltoken{
+	margin-left: 5px;
+	margin-right: 5px;
+	font-size: 100px;
 }
 
-#secondheading{
-	text-align: right;
+.bigtoken{
+	font-size: 150px;
+	color:#005ce6;
+	margin: 10px;
+}
+
+
+.group1{
+	padding: 20px;
 }
