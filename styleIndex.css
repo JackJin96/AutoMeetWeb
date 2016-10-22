@@ -1,0 +1,8 @@
+.jumbotron{
+	text-align: center;
+	max-height: 500px;
+	background-image: url("images/HomeBackground.jpg"); 
+	background-size: 100%;
+	background-repeat: no-repeat;
+
+}
