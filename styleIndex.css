@@ -1,8 +1,22 @@
+
 .jumbotron{
 	text-align: center;
-	max-height: 500px;
+	color:white !important;
 	background-image: url("images/HomeBackground.jpg"); 
 	background-size: 100%;
 	background-repeat: no-repeat;
-
 }
+
+@media (min-width: 600px) {
+  .jumbotron {
+  	padding-top: 14% !important;
+    height: 500px;
+  }
+
+ #BigHomeTitle{
+ 	font-size: 90px;
+ }
+
+ #SmallHomeTitle{
+ 	font-size: 30px;
+ }
