@@ -1,5 +1,6 @@
-
 .jumbotron{
+	margin-top: 70px !important;
+	margin-bottom: 0px !important;
 	text-align: center;
 	color:white !important;
 	background-image: url("images/HomeBackground.jpg"); 
@@ -8,16 +9,22 @@
 }
 
 p{
+	font-family: "Segoe UI Light","Segoe WPC","Segoe UI",
+              Helvetica, Arial, "Arial Unicode MS", Sans-Serif;
+              font-weight: 100;
 	font-size: 20px;
 }
 
 @media (min-width: 600px) {
   .jumbotron {
-  	padding-top: 17% !important;
-    height: 500px;
+  	padding: 12% !important;
+  	margin-bottom: 3% !important; 
+  }
+  #logos{
+  	width:300px;
   }
 
- #BigHomeTitle{
+#BigHomeTitle{
  	font-size: 90px;
  }
 
@@ -25,6 +32,33 @@ p{
  	font-size: 30px;
  }
 
- .col-sm-4{
- 	color: white;
- }
+#fblogin,#googlelogin{
+	font-size: 20px;
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-right:20px;
+	color: white;
+	font-family: "Segoe UI Light","Segoe WPC","Segoe UI",
+              Helvetica, Arial, "Arial Unicode MS", Sans-Serif;
+              font-weight: 100;
+}
+
+#intro{
+	padding-top: 10px;
+}
+
+}
+
+@media (min-width: 1000px) {
+	#logos{
+		width: 350px;
+	}
+	}
+
+.logo{
+	font-size: 200px;
+}
+
+#secondheading{
+	text-align: right;
+}
