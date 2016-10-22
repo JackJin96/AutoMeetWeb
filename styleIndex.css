@@ -75,3 +75,19 @@ p{
 .group1{
 	padding: 20px;
 }
+
+footer{
+	margin: 50px;
+}
+
+footer .glyphicon {
+    font-size: 20px;
+    margin: 20px;
+    color: black;
+}
+
+#credits{
+	margin-top: 20px;
+	font-size: 16px;
+}
+
